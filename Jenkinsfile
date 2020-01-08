@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Building..'
                 echo env.BUILD_ID
-                echo BRANCH_NAME
+                echo env.BRANCH_NAME
                 echo env.NODE_NAME
             }
         }
